@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AilatrieuphuVer2</string>
+    <string name="thongbao">Thông Báo</string>
+    <string name="nguoichoi">Bạn đã sẵn sàng chơi với chúng tôi</string>
+    <string name="boqua">Bỏ qua</string>
+    <string name="sansang">Sẵn sàng</string>
+    <string name="dapanA">Theo tôi, Đáp án đúng là A!</string>
+    <string name="dapanB">Theo tôi, Đáp án đúng là B!</string>
+    <string name="dapanC">Theo tôi, Đáp án đúng là C!</string>
+    <string name="dapanD">Theo tôi, Đáp án đúng là D!</string>
+</resources>

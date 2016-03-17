@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@android:color/black"
+              android:layout_width="match_parent"
+              android:theme="@android:style/Theme.NoTitleBar"
+              android:layout_height="200dp">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="#7B1FA2"
+                    android:layout_height="0dp">
+        <TextView
+                android:text="@string/thongbao"
+                android:textColor="@android:color/white"
+                android:textSize="40dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp">
+        <TextView
+                android:text="Bạn muốn dừng cuộc chơi tại đây"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_weight="1"
+                  android:padding="10dp"
+                  android:layout_height="0dp">
+        <Button android:layout_width="0dp"
+                android:id="@+id/btn_Return"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="#7B1FA2"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:text="Trở Lại"
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="0dp"
+                android:id="@+id/bt_Stop"
+                android:layout_weight="1"
+                android:layout_margin="10dp"
+                android:background="#7B1FA2"
+                android:textColor="@android:color/white"
+                android:textSize="25dp"
+                android:text="Đồng Ý"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

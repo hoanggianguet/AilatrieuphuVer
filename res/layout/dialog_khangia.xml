@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:background="@drawable/atp__activity_player_layout_help_call_audience_background"
+              android:layout_width="match_parent"
+              android:layout_height="300dp">
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:padding="20dp"
+                  android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="200dp">
+            <RelativeLayout android:layout_width="match_parent"
+                            android:id="@+id/height_caseA"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/holo_green_light"
+                            android:layout_height="50dp">
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content"
+                      android:text="60%"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                      android:id="@+id/progress_caseA"
+                      android:layout_marginRight="10dp"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/height_caseA"
+                      android:layout_centerHorizontal="true"/>
+            <TextView android:layout_width="wrap_content"
+                      android:text="A"
+                      android:layout_gravity="center_horizontal"
+                      android:textSize="30dp"
+                      android:textColor="@android:color/white"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="200dp">
+            <RelativeLayout android:layout_width="match_parent"
+                            android:id="@+id/height_caseB"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/holo_green_light"
+                            android:layout_height="50dp">
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content"
+                      android:text="60%"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                      android:id="@+id/progress_caseB"
+                      android:layout_marginRight="10dp"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/height_caseB"
+                      android:layout_centerHorizontal="true"/>
+            <TextView android:layout_width="wrap_content"
+                      android:text="B"
+                      android:layout_gravity="center_horizontal"
+                      android:textSize="30dp"
+                      android:textColor="@android:color/white"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="200dp">
+            <RelativeLayout android:layout_width="match_parent"
+                            android:id="@+id/height_caseC"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/holo_green_light"
+                            android:layout_height="50dp">
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content"
+                      android:text="60%"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                      android:id="@+id/progress_caseC"
+                      android:layout_marginRight="10dp"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/height_caseC"
+                      android:layout_centerHorizontal="true"/>
+            <TextView android:layout_width="wrap_content"
+                      android:text="C"
+                      android:layout_gravity="center_horizontal"
+                      android:textSize="30dp"
+                      android:textColor="@android:color/white"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="200dp">
+            <RelativeLayout android:layout_width="match_parent"
+                            android:id="@+id/height_caseD"
+                            android:layout_marginRight="10dp"
+                            android:background="@android:color/holo_green_light"
+                            android:layout_height="50dp">
+            </RelativeLayout>
+            <TextView android:layout_width="wrap_content"
+                      android:text="60%"
+                      android:textSize="20dp"
+                      android:textColor="@android:color/white"
+                      android:id="@+id/progress_caseD"
+                      android:layout_marginRight="10dp"
+                      android:layout_height="wrap_content"
+                      android:layout_below="@+id/height_caseD"
+                      android:layout_centerHorizontal="true"/>
+            <TextView android:layout_width="wrap_content"
+                      android:text="D"
+                      android:layout_gravity="center_horizontal"
+                      android:textSize="30dp"
+                      android:textColor="@android:color/white"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentBottom="true"
+                      android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+    <Button android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:background="#7B1FA2"
+            android:text="@string/sansang"
+            android:id="@+id/btn_back"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"/>
+</LinearLayout>

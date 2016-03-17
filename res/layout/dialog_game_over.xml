@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="150dp"
+    android:background="@drawable/bgk_dialog_start"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="Bạn đã dừng cuộc chơi tại đây\n Chúc bạn thành công trong cuộc sống"
+        android:textColor="#ffffff"
+        android:textSize="16sp"
+        android:layout_weight="3" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:id="@+id/tv_ok"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_weight="1"
+        android:background="@drawable/atp_btn_ok_cancel_normal"
+        android:text="Ok"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="24sp" />
+</LinearLayout>

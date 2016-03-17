@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:background="@drawable/atp__activity_home_background"
+              android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="2">
+        <ImageView
+                android:id="@+id/circle_anim"
+                android:scaleType="fitCenter"
+                android:background="@drawable/atp__bg_circle_anim"
+                android:layout_centerInParent="true"
+                android:layout_width="300dp"
+                android:layout_height="300dp"/>
+        <ImageView android:layout_width="170dp"
+                   android:scaleType="fitCenter"
+                   android:layout_centerInParent="true"
+                   android:background="@drawable/atp__icon_logo_in_app"
+                   android:layout_height="170dp"/>
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="0dp"
+                  android:orientation="vertical"
+                  android:layout_weight="1">
+        <TextView
+                android:id="@+id/bt_PlayGame"
+                android:text="Play"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:background="@drawable/bgk_button_play"
+                android:layout_width="200dp"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        <TextView
+                android:id="@+id/bt_HighScore"
+                android:text="HighScore"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:background="@drawable/bgk_button_high_score"
+                android:gravity="center"
+                android:layout_width="200dp"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+        <TextView
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_width="200dp"
+                android:scaleType="centerInside"
+                android:layout_gravity="center"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

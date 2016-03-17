@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              style="@android:style/Theme.NoTitleBar"
+              android:background="@android:color/black"
+              android:layout_width="match_parent"
+              android:layout_height="200dp">
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_weight="0.7"
+                    android:background="#7B1FA2"
+                    android:layout_height="0dp">
+        <TextView
+                android:text="@string/thongbao"
+                android:textColor="@android:color/white"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_alignParentStart="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="0dp">
+        <TextView
+                android:text="@string/nguoichoi"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent"
+                  android:orientation="horizontal"
+                  android:layout_weight="1"
+                  android:padding="10dp"
+                  android:layout_height="0dp">
+        <Button android:layout_width="0dp"
+                android:id="@+id/btn_chuaSanSang"
+                android:layout_weight="1"
+                android:background="#7B1FA2"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:text="@string/boqua"
+                android:layout_height="wrap_content"/>
+        <Button android:layout_width="0dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                android:background="#7B1FA2"
+                android:text="@string/sansang"
+                android:id="@+id/btn_sanSang"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+
+</LinearLayout>

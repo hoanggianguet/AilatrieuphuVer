@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:id="@+id/hello"
+              android:layout_width="match_parent"
+              android:background="@drawable/atp__activity_home_background"
+              android:layout_height="match_parent">
+    <ImageView android:layout_width="match_parent" android:layout_height="0dp"
+               android:layout_weight="1"/>
+    <ImageView android:id="@+id/iv_IconGame"
+               android:layout_width="wrap_content"
+               android:src="@drawable/atp__icon_logo_in_app"
+               android:layout_gravity="center"
+               android:adjustViewBounds="true"
+               android:scaleType="fitCenter"
+               android:layout_height="0dp"
+               android:layout_weight="4"/>
+    <ImageView android:layout_width="match_parent" android:layout_height="0dp"
+               android:layout_weight="2"/>
+    <ImageView android:id="@+id/bt_PlayGame"
+               android:layout_width="300dp"
+               android:scaleType="centerCrop"
+               android:layout_gravity="center"
+               android:src="@drawable/atp__button_single_dialog_event_normal"
+               android:layout_height="0dp"
+               android:layout_weight="1"/>
+
+    <ImageView android:id="@+id/bt_Exit"
+               android:layout_width="300dp"
+               android:scaleType="centerCrop"
+               android:layout_gravity="center"
+               android:layout_marginTop="20dp"
+               android:src="@drawable/atp__button_single_dialog_event_normal"
+               android:layout_height="0dp"
+               android:layout_weight="1"/>
+
+    <ImageView android:layout_width="match_parent"
+               android:layout_height="0dp"
+               android:layout_weight="1"/>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/atp__activity_home_background">
+
+    <ImageView
+        android:id="@+id/iv_bg_circle"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/atp__bg_circle_anim" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/atp_icon_retry" />
+
+    <TextView
+        android:id="@+id/tv_now_play"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/iv_bg_circle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bgk_button_play"
+        android:gravity="center"
+        android:text="Now Play"
+        android:textColor="#ffff"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_high_score"
+        android:layout_width="250dp"
+        android:layout_height="76dp"
+        android:layout_below="@+id/tv_now_play"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bgk_button_high_score"
+        android:gravity="center"
+        android:text="High Score"
+        android:textColor="#ffff"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>
